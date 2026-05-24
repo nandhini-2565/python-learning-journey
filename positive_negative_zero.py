@@ -1,4 +1,4 @@
-# Program to check weather a number is positive, negatuve or zero
+# Program to check whether a number is positive, negatuve or zero
 
 n = int(input("Enter a number: "))
 
