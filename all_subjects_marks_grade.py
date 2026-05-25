@@ -57,18 +57,23 @@ else:
     print("Pass")
 
 totalmarks = sub1 + sub2 + sub3 + sub4 + sub5 + sub6
-print("Total marks: ", totalmarks)
 
 percentage = (totalmarks / 600) * 100
+
+print("Name: ", name)
+print("Total Marks: ", totalmarks)
 print("Percentage: ", percentage)
 
-if percentage >= 75:
-    print("Grade A")
-elif percentage >= 60:
-    print("Grade B")
-elif percentage >=50:
-    print("Grade C")
-elif percentage >= 35:
-    print("Grade D")
-else: 
-    print("Fail")
+if sub1 < 35 or sub2 < 35 or sub3 < 35 or sub4 < 35 or sub5 < 35 or sub6 < 35:
+    print("Overall result : Fail")
+else:
+    if percentage >= 75:
+        print("Grade A")
+    elif percentage >= 60:
+        print("Grade B")
+    elif percentage >=50:
+        print("Grade C")
+    elif percentage >= 35:
+        print("Grade D")
+    else: 
+        print("Fail")
