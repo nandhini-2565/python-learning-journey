@@ -14,7 +14,7 @@ This repository contains a collection of my Python practice programs, exercises,
 - checks if the user is a minor or an adult
 
 ## Goal
-I am learning Python step by step and building projects regularly.
+I am learning Python step by step and building projects.
 
 ## Author
 Nandini
