@@ -4,6 +4,7 @@ This repository contains a collection of my Python practice programs, exercises,
 
 ## Topics Covered
 - Variables
+- if else if conditions
 
 ## Programs Added
 - Even Odd Checker
